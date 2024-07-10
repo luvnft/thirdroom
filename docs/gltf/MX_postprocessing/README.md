@@ -51,5 +51,5 @@ Currently the only supported postprocessing effect is `bloom` which is an option
 
 ## Known Implementations
 
-- [Third Room](https://thirdroom.io)
-- [Third Room Unity Exporter](https://github.com/matrix-org/thirdroom-unity-exporter)
+- [Space](https://space.atl5d.com)
+- [Space Unity Exporter](https://github.com/matrix-org/thirdroom-unity-exporter)

@@ -72,7 +72,7 @@ function useQueryHomeserver(client: Client, homeserver: string) {
         queryRef.current = undefined;
       }
     },
-    [client]
+    [client],
   );
 
   const debouncedCallback = useDebounce(queryCallback, { wait: 400 });
@@ -99,7 +99,7 @@ async function startOIDCLogin(
   homeserver: string,
   oidc: QueryOIDCResult,
   oidcApi: OidcApi,
-  guest: boolean
+  guest: boolean,
 ) {
   const { openUrl, settingsStorage } = platform;
   const deviceScope = oidcApi.generateDeviceScope();
@@ -154,7 +154,7 @@ export default function LoginView() {
 
   const { homeserver, loading, error, result, queryHomeserver } = useQueryHomeserver(
     client,
-    platform.config.defaultHomeServer
+    platform.config.defaultHomeServer,
   );
   useEffect(() => {
     if (!formRef.current) return;
@@ -282,7 +282,7 @@ export default function LoginView() {
         <div className="flex items-center gap-sm">
           <Icon src={PlanetIC} size="lg" />
           <Text variant="h2" weight="bold">
-            Third Room
+            Space
           </Text>
         </div>
         <form ref={formRef} className="LoginView__form flex flex-column gap-md" onSubmit={handleLogin}>

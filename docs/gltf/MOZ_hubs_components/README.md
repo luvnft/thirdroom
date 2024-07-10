@@ -7,7 +7,7 @@ Assets using the MOZ_hubs_components extension can be exported from:
 - [Mozilla Spoke](https://hubs.mozilla.com/spoke)
 - [hubs-blender-exporter](https://github.com/MozillaReality/hubs-blender-exporter)
 
-Third Room currently has partial support for MOZ_hubs_components including the following components:
+Space currently has partial support for MOZ_hubs_components including the following components:
 
 - spawn-point
 - waypoint

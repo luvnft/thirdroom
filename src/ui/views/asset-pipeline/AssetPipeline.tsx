@@ -14,7 +14,7 @@ export default function AssetPipeline() {
   });
 
   const [options, setOptions] = useState<Required<AssetPipelineOptions>>(
-    DefaultAssetPipelineOptions as Required<AssetPipelineOptions>
+    DefaultAssetPipelineOptions as Required<AssetPipelineOptions>,
   );
 
   const onDropFile = useCallback(
@@ -54,7 +54,7 @@ export default function AssetPipeline() {
         });
       }
     },
-    [options]
+    [options],
   );
 
   const onDragOver = useCallback((e: DragEvent<HTMLDivElement>) => {
@@ -65,7 +65,7 @@ export default function AssetPipeline() {
     <div className="AssetPipeline">
       <div className="AssetPipeline__dropzone" onDrop={onDropFile} onDragOver={onDragOver} />
       <div className="AssetPipeline__content gap-lg">
-        <Text variant="h2">Third Room Asset Pipeline</Text>
+        <Text variant="h2">Space Asset Pipeline</Text>
         {Object.keys(DefaultAssetPipelineOptions).map((key) => (
           <SettingTile label={<Label>{key}</Label>}>
             <Switch

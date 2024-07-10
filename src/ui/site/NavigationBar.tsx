@@ -18,7 +18,7 @@ import { DropdownMenu } from "../atoms/menu/DropdownMenu";
 export function Logo() {
   return (
     <a className="inline-flex flex-column items-end gap-xxs Logo" href="/landing">
-      <img height={20} src={LogoFullSVG} alt="Third Room" />
+      <img height={20} src={LogoFullSVG} alt="Space" />
       <Text variant="b3" weight="medium" className="uppercase">
         Creator Update
       </Text>

@@ -4,7 +4,7 @@ import { CoverScreen } from "../cover-screen/CoverScreen";
 export function SplashScreen() {
   return (
     <CoverScreen>
-      <img src={LogoFullSVG} alt="Third Room" />
+      <img src={LogoFullSVG} alt="Space" />
     </CoverScreen>
   );
 }

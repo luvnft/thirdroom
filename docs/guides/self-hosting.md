@@ -1,21 +1,21 @@
-# Self Hosting Third Room
+# Self Hosting Space
 
-Third Room can be self-hosted, giving you even more control over the user experience and content distribution. By self-hosting, you can customize the client to meet your specific needs and requirements while still benefiting from the core functionality of Third Room.
+Space can be self-hosted, giving you even more control over the user experience and content distribution. By self-hosting, you can customize the client to meet your specific needs and requirements while still benefiting from the core functionality of Space.
 
-Third Room is a single page web app (SPA) and can be hosted on any static web server. You do not need to host your own Matrix homeserver in order to customize or self-host your own Third Room client.
+Space is a single page web app (SPA) and can be hosted on any static web server. You do not need to host your own Matrix homeserver in order to customize or self-host your own Space client.
 
 If you also want to self-host a Matrix homeserver, please refer to the [Synapse documentation](https://matrix-org.github.io/synapse/develop/welcome_and_overview.html).
 
 ::: tip
-Third Room uses Matrix's Group VoIP Calls feature to enable networking and voice chat in virtual worlds.
+Space uses Matrix's Group VoIP Calls feature to enable networking and voice chat in virtual worlds.
 In order for WebRTC calls to connect in all networking scenarios, you should set up a TURN server such as Coturn. You can find more information on configuring Coturn in Synapse [here](https://matrix-org.github.io/synapse/develop/turn-howto.html).
 :::
 
 ## Prerequisites
 
-To build the Third Room client you'll need [Node](https://nodejs.org) (version 16+) and [yarn](https://classic.yarnpkg.com) (v1) installed on your system.
+To build the Space client you'll need [Node](https://nodejs.org) (version 16+) and [yarn](https://classic.yarnpkg.com) (v1) installed on your system.
 
-You'll also need to clone the Third Room repository:
+You'll also need to clone the Space repository:
 
 ```bash
 git clone https://github.com/matrix-org/thirdroom.git
@@ -88,7 +88,7 @@ You can change `localhost:3000` to whatever domain you're hosting the client on.
 
 ## Required Headers
 
-Third Room requires the following headers to be set in order to function correctly:
+Space requires the following headers to be set in order to function correctly:
 
 ```http
 Cross-Origin-Opener-Policy "same-origin"

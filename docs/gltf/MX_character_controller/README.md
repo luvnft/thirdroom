@@ -48,5 +48,5 @@ The character controller `type` can be set to `first-person` or `fly`. Using `fi
 
 ## Known Implementations
 
-- [Third Room](https://thirdroom.io)
-- [Third Room Unity Exporter](https://github.com/matrix-org/thirdroom-unity-exporter)
+- [Space](https://space.atl5d.com)
+- [Space Unity Exporter](https://github.com/matrix-org/thirdroom-unity-exporter)

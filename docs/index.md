@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: Third Room
+  name: Space
   text: Documentation
   tagline: Open, decentralized, immersive worlds built on Matrix
   actions:
@@ -14,11 +14,11 @@ hero:
 features:
   - icon: 🎨
     title: Creator Guide
-    details: Learn more about how to create content using Third Room Unity Exporter and more.
+    details: Learn more about how to create content using Space Unity Exporter and more.
     link: /guides/creators
   - icon: 👨‍💻
     title: Developer Guide
-    details: Learn more about Web Scene Graph API and how to program Third Room worlds.
+    details: Learn more about Web Scene Graph API and how to program Space worlds.
     link: /guides/developers
   - icon: 📚
     title: Web Scene Graph Reference

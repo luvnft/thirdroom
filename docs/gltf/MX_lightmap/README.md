@@ -97,5 +97,5 @@ When used with the `EXT_mesh_gpu_instancing` extension:
 
 ## Known Implementations
 
-- [Third Room](https://thirdroom.io)
-- [Third Room Unity Exporter](https://github.com/matrix-org/thirdroom-unity-exporter)
+- [Space](https://space.atl5d.com)
+- [Space Unity Exporter](https://github.com/matrix-org/thirdroom-unity-exporter)

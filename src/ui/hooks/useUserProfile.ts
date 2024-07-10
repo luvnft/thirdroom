@@ -19,7 +19,7 @@ export function useUserProfile(client: Client, session?: Session) {
         avatarUrl,
       });
     },
-    [setUserProfile]
+    [setUserProfile],
   );
 
   const updateFromServer = useCallback(
@@ -35,7 +35,7 @@ export function useUserProfile(client: Client, session?: Session) {
           // Silence error since not all users have profile routes
         });
     },
-    [isMounted, updateProfile]
+    [isMounted, updateProfile],
   );
 
   const listenProfileChange = useCallback(
@@ -50,7 +50,7 @@ export function useUserProfile(client: Client, session?: Session) {
         updateProfile(session.userId, avatarUrl, displayName);
       });
     },
-    [updateProfile, setProfileRoom]
+    [updateProfile, setProfileRoom],
   );
 
   const initProfileRoom = useCallback(
@@ -63,7 +63,7 @@ export function useUserProfile(client: Client, session?: Session) {
         const roomBeingCreated = session.createRoom({
           type: RoomType.Profile,
           visibility: RoomVisibility.Private,
-          name: "Third Room - Profile",
+          name: "Space - Profile",
           topic: "This room contain profile information.",
           isEncrypted: false,
           isFederationDisabled: false,
@@ -89,7 +89,7 @@ export function useUserProfile(client: Client, session?: Session) {
         listenProfileChange(session, profileRoom);
       }
     },
-    [listenProfileChange]
+    [listenProfileChange],
   );
 
   useEffect(() => {

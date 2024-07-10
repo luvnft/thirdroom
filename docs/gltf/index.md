@@ -1,11 +1,11 @@
 # glTF Extensions Overview
 
-Below is a list of the currently supported glTF extensions in Third Room and their specifications. Third Room is focused on trying to push forward standards for 3D content in the hopes of promoting interoperability. This means our content should work anywhere where these extensions are supported and anyone wanting to support Third Room's content can do so by implementing the extensions below. It also means any tool wishing to export to Third Room (Blender, Unity, Godot, etc.) should implement the following extensions. If you are looking to add support for any of the Matrix glTF extensions to your tool/engine/game let us know in the [Third Room chat](https://matrix.to/#/#thirdroom-dev:matrix.org).
+Below is a list of the currently supported glTF extensions in Space and their specifications. Space is focused on trying to push forward standards for 3D content in the hopes of promoting interoperability. This means our content should work anywhere where these extensions are supported and anyone wanting to support Space's content can do so by implementing the extensions below. It also means any tool wishing to export to Space (Blender, Unity, Godot, etc.) should implement the following extensions. If you are looking to add support for any of the Matrix glTF extensions to your tool/engine/game let us know in the [Space chat](https://matrix.to/#/#thirdroom-dev:matrix.org).
 
 ## KHR (Khronos) Extensions
 
 - [KHR_materials_unlit](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_materials_unlit/README.md)
-- [KHR_lights_punctual](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_lights_punctual/README.md) ** NOTE: In Three.js / Third Room the position/orientation of directional lights matters. Place them so that they frame the part of the scene you want to light. **
+- [KHR_lights_punctual](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_lights_punctual/README.md) ** NOTE: In Three.js / Space the position/orientation of directional lights matters. Place them so that they frame the part of the scene you want to light. **
 - [KHR_texture_transform](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_texture_transform/README.md)
 - [KHR_materials_emissive_strength](https://github.com/KhronosGroup/glTF/blob/c58e7e57184a4024dd1877dd9d219b198d6e0006/extensions/2.0/Khronos/KHR_materials_emissive_strength/README.md)
 - [KHR_materials_ior](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_materials_ior/README.md)

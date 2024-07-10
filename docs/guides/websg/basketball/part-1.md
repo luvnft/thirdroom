@@ -13,7 +13,7 @@ It will be split into 3 parts:
 
 ## Setup
 
-If you're coming here from the in-world tutorial, you should already have a world set up with the correct settings. If not, create a new world in Third Room using [this scene file](https://thirdroom.io/gltf/BasketballCourt.glb) and [this preview image](https://thirdroom.io/image/BasketballPreview.png). The Room name can be whatever you want and the other settings can be left as default.
+If you're coming here from the in-world tutorial, you should already have a world set up with the correct settings. If not, create a new world in Space using [this scene file](https://space.atl5d.com/gltf/BasketballCourt.glb) and [this preview image](https://space.atl5d.com/image/BasketballPreview.png). The Room name can be whatever you want and the other settings can be left as default.
 
 Open the editor using the `` ` `` key.
 
@@ -45,7 +45,7 @@ The WebSG API is designed around the glTF file format. glTF is a 3D file format 
 transmission of 3D scenes. It is widely adopted in many 3D applications and engines and the ecosystem
 is growing rapidly. You can find out more about glTF [here](https://www.khronos.org/gltf/).
 
-While Third Room currently has only implementation of The WebSG API. It is designed such that it can
+While Space currently has only implementation of The WebSG API. It is designed such that it can
 be ported to other engines and platforms. Enabling truly interoperable 3D experiences. We hope to
 standardize the API with the help of the community over time.
 

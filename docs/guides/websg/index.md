@@ -2,7 +2,7 @@
 
 The Web Scene Graph API (WebSG) makes it possible to program portable virtual worlds. It is a WebAssembly and JavaScript API for scene graph manipulation in a sandboxed environment. WebSG is designed to mirror the data structures defined by the glTF 2.0 specification and is intended to be used to add runtime behavior to these scenes. Just as the HTML DOM API added the ability for developers to interact with and manipulate HTML websites, the WebSG API allows you to interact with and manipulate 3D scenes.
 
-Third Room is the first implementation of this API, but it is intended for use in any context where sandboxed scripting of 3D environments is desired.
+Space is the first implementation of this API, but it is intended for use in any context where sandboxed scripting of 3D environments is desired.
 
 ## Example
 
@@ -55,7 +55,7 @@ The C header files for the WebSG API are available [here](https://github.com/mat
 We'll be adding more documentation for C and other language bindings in the future. We're currently focused
 on fully documenting the JS bindings and stabilizing the API. If you're interested in helping flesh out documentation for other languages, please reach out on [Matrix](https://matrix.to/#/#thirdroom-dev:matrix.org).
 
-## Usage in Third Room
+## Usage in Space
 
 There are two ways to add a script to a world:
 
@@ -66,4 +66,4 @@ If you're just getting started, we recommend checking out the [getting started t
 
 ## Usage in Other Applications
 
-We're focused on building out a browser-based client in JavaScript, but we've seen a lot of interest in building out alternate clients in Godot, Unity, and Unreal. If you're interested in building a Third Room client or integrating the WebSG API into your own application, please reach out on [Matrix](https://matrix.to/#/#thirdroom-dev:matrix.org). There you'll find other like-minded people interested in building out the WebSG ecosystem.
+We're focused on building out a browser-based client in JavaScript, but we've seen a lot of interest in building out alternate clients in Godot, Unity, and Unreal. If you're interested in building a Space client or integrating the WebSG API into your own application, please reach out on [Matrix](https://matrix.to/#/#thirdroom-dev:matrix.org). There you'll find other like-minded people interested in building out the WebSG ecosystem.

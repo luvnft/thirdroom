@@ -26,7 +26,7 @@ export function WhatsNewModal({ open, requestClose, createSpecialWorld }: WhatsN
             <Scroll type="hover">
               <div className="WhatsNewModal__hero flex flex-column justify-center items-center gap-sm text-center">
                 <Text variant="h2" weight="bold">
-                  Welcome to the Third Room
+                  Welcome to the Space
                 </Text>
                 <Text variant="s2" weight="semi-bold">
                   Creator Update
@@ -49,7 +49,7 @@ export function WhatsNewModal({ open, requestClose, createSpecialWorld }: WhatsN
                     </Thumbnail>
                   }
                   title="WebXR"
-                  description="Third Room now has WebXR support! You can now use your AR or VR headset to explore 3D worlds and interact with other users."
+                  description="Space now has WebXR support! You can now use your AR or VR headset to explore 3D worlds and interact with other users."
                 />
                 <WhatsNewCard
                   thumbnail={
@@ -58,7 +58,7 @@ export function WhatsNewModal({ open, requestClose, createSpecialWorld }: WhatsN
                     </Thumbnail>
                   }
                   title="Discover Page"
-                  description="Find and share scenes, worlds, and Matrix rooms created by the Third Room Community in the new Discover Page."
+                  description="Find and share scenes, worlds, and Matrix rooms created by the Space Community in the new Discover Page."
                 />
                 <WhatsNewCard
                   thumbnail={

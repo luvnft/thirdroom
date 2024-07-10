@@ -18,7 +18,7 @@ export function BlogSection() {
     <section className="BlogSection flex flex-column items-center gap-xl">
       <div className="BlogSection__content">
         <Text variant="h1" weight="bold">
-          Welcome to Third Room: Technology Preview
+          Welcome to Space: Technology Preview
         </Text>
         <Text variant="s1" weight="semi-bold">
           Introducing an open, standards-based, decentralised vision of the metaverse for the open Web, built entirely
@@ -27,15 +27,15 @@ export function BlogSection() {
         <Text variant="c1">Hi all,</Text>
         <Text variant="c1">
           <a href="https://matrix.org">Matrix</a> has always been about more than just chat, and we are incredibly
-          excited today to finally publicly debut our first Technology Preview of Third Room - a beautiful new web
-          client for connecting to shared 3D (or 2D) spatial environments and applications built on Matrix.
+          excited today to finally publicly debut our first Technology Preview of Space - a beautiful new web client for
+          connecting to shared 3D (or 2D) spatial environments and applications built on Matrix.
         </Text>
         <Text variant="c1">
-          Third Room lets you use Matrix as the platform for a truly free and open decentralised vision of the metaverse
-          (or however you refer to interoperable virtual worlds and spatial web applications) - built entirely on open
+          Space lets you use Matrix as the platform for a truly free and open decentralised vision of the metaverse (or
+          however you refer to interoperable virtual worlds and spatial web applications) - built entirely on open
           standards via liberally licensed open source implementations, and without any dependencies on
-          cryptocurrencies, NFTs, or data-hoarding big tech silos. In other words: Third Room will be a blank canvas for
-          you to build open metaverse environments and applications in the spirit of the original open Web.
+          cryptocurrencies, NFTs, or data-hoarding big tech silos. In other words: Space will be a blank canvas for you
+          to build open metaverse environments and applications in the spirit of the original open Web.
         </Text>
 
         <ul>
@@ -52,7 +52,7 @@ export function BlogSection() {
             <a href="#whats-left">What's left to do?</a>
           </li>
           <li>
-            <a href="#what-makes-us-unique">What makes Third Room unique?</a>
+            <a href="#what-makes-us-unique">What makes Space unique?</a>
           </li>
           <li>
             <a href="#built-on-matrix">Built entirely on Matrix</a>
@@ -74,7 +74,7 @@ export function BlogSection() {
           The vision
         </Text>
         <Text variant="c1">
-          We see Third Room as a logical extension to today’s Matrix clients. The starting point for a Matrix room is of
+          We see Space as a logical extension to today’s Matrix clients. The starting point for a Matrix room is of
           course simple text chat across a decentralised set of users. From there, it’s an obvious extension to add more
           sophisticated collaboration features such as the ability to send files, share locations, send voice messages,
           embed widgets, etc. The next level up from that is to add voip calling, to upgrade rooms into voice and{" "}
@@ -89,21 +89,21 @@ export function BlogSection() {
           interact together in any way imaginable, building on a blank canvas for open spatial collaboration - pulling
           in people, apps, digital assets and bridged content in order to mix together whatever realtime collaborative
           semantics you want… much like the Web itself lets you go wild with HTML+JS+CSS to build your own webapps? This
-          is our goal with Third Room.
+          is our goal with Space.
         </Text>
 
         <Text id="how-do-you-use-it" variant="h2" weight="semi-bold">
           How do you use it?
         </Text>
         <Text variant="c1">
-          The point of today’s tech preview is to show off the capabilities of Third Room’s engine and spark interest
-          from the community in contributing to the project, rather than it being a mainstream-usable app. In
-          particular, we don’t yet have persistence, custom avatars, or custom games/experiences hooked up yet. That
-          said, there’s obviously some stuff already here for you to play with! To get going, head over to{" "}
-          <a href="https://thirdroom.io">https://thirdroom.io</a> in a modern desktop browser and log in as a guest or
-          registered user. In the tech preview, each user gets their own lobby room to familiarise themselves with the
-          engine - which contains links (portals) to other rooms where you can go find other people to hang out with.
-          Hit the <kbd>/</kbd> key to pull up the keyboard shortcuts you can use to navigate and interact with the
+          The point of today’s tech preview is to show off the capabilities of Space’s engine and spark interest from
+          the community in contributing to the project, rather than it being a mainstream-usable app. In particular, we
+          don’t yet have persistence, custom avatars, or custom games/experiences hooked up yet. That said, there’s
+          obviously some stuff already here for you to play with! To get going, head over to{" "}
+          <a href="https://space.atl5d.com">https://space.atl5d.com</a> in a modern desktop browser and log in as a
+          guest or registered user. In the tech preview, each user gets their own lobby room to familiarise themselves
+          with the engine - which contains links (portals) to other rooms where you can go find other people to hang out
+          with. Hit the <kbd>/</kbd> key to pull up the keyboard shortcuts you can use to navigate and interact with the
           world. You can also create your own private rooms, either picking existing glTF assets to define the scene, or
           uploading your own glTF. To create your own glTF assets, go wild in Blender, or come ask in{" "}
           <a href="https://matrix.to/#/#thirdroom-dev:matrix.org" target="_blank" rel="noreferrer noopener">
@@ -118,7 +118,7 @@ export function BlogSection() {
           How does it work?
         </Text>
         <Text variant="c1">
-          Third Room is built on a new browser-based engine that we’ve built called{" "}
+          Space is built on a new browser-based engine that we’ve built called{" "}
           <a
             href="https://github.com/matrix-org/thirdroom/tree/main/src/engine"
             target="_blank"
@@ -212,7 +212,7 @@ export function BlogSection() {
           </a>{" "}
           from April.
         </Text>
-        <Text variant="c1">In terms of features, Third Room Technology Preview 1 provides support for:</Text>
+        <Text variant="c1">In terms of features, Space Technology Preview 1 provides support for:</Text>
         <ul>
           <li>glTF asset loading from the Matrix media repository</li>
           <li>
@@ -246,7 +246,7 @@ export function BlogSection() {
           <li>Postprocessing pipeline (currently bloom and tonemapping)</li>
           <li>
             built-in super-speedy glTF previewer (drop and drag your .glb onto{" "}
-            <a href="https://thirdroom.io/viewer">https://thirdroom.io/viewer</a>)
+            <a href="https://space.atl5d.com/viewer">https://space.atl5d.com/viewer</a>)
           </li>
           <li>Three.js Improvements</li>
           <ul>
@@ -281,9 +281,9 @@ export function BlogSection() {
           </li>
 
           <li>
-            <span className="semi-bold">User Generated Content:</span> The vision is of course for Third Room to be a
-            canvas on which anyone can script their own functionality, just like folks can write Matrix bots, bridges
-            and widgets today. However, we haven’t hooked up the APIs yet to let users write their own apps: these will
+            <span className="semi-bold">User Generated Content:</span> The vision is of course for Space to be a canvas
+            on which anyone can script their own functionality, just like folks can write Matrix bots, bridges and
+            widgets today. However, we haven’t hooked up the APIs yet to let users write their own apps: these will
             likely be sandboxed WASM executables which run in their own thread. Instead, we’re currently limited to the
             functionality hardcoded into the client (move, run, jump, spawn, pickup, throw, etc).
           </li>
@@ -343,30 +343,30 @@ export function BlogSection() {
         <BlogImage align="center" imgSrc="/landing/Portal.jpg" imgAlt="image" />
 
         <Text id="what-makes-us-unique" variant="h2" weight="semi-bold">
-          What makes Third Room unique?
+          What makes Space unique?
         </Text>
         <Text variant="c1">
           There’s obviously been way too much hype about virtual worlds and the metaverse recently, so it’s important to
-          spell out what makes Third Room unique.
+          spell out what makes Space unique.
         </Text>
 
         <ul className="BlogSection__spaced-list">
           <li>
-            <span className="semi-bold">Web first.</span> Third Room aspires to be the real-time spatial layer of the
-            open Web, and as such our primary target platform is of course the Web, building on the incredible advances
-            in WebGL, WebRTC, WebXR, WebWorkers and WebGPU in recent years. The Web is finally at the point where it’s
+            <span className="semi-bold">Web first.</span> Space aspires to be the real-time spatial layer of the open
+            Web, and as such our primary target platform is of course the Web, building on the incredible advances in
+            WebGL, WebRTC, WebXR, WebWorkers and WebGPU in recent years. The Web is finally at the point where it’s
             possible to build a game engine whose performance rivals native applications - and so while many roads into
-            the metaverse seem to involve installing enormous proprietary Windows-only native apps via Steam, Third Room
-            is available to anyone with a web browser. We’ve tested on Chrome, Firefox and Safari, but it should work on
+            the metaverse seem to involve installing enormous proprietary Windows-only native apps via Steam, Space is
+            available to anyone with a web browser. We’ve tested on Chrome, Firefox and Safari, but it should work on
             any modern up-to-date browser… including on older machines: after all, the Web is for everyone. For
-            instance, Third Room runs fine on a 2010 Macbook Air with integrated graphics. Today’s release is desktop
-            web only, but mobile web is not far away (and performance is great!). Obviously there’s nothing stopping
-            people from also building Third Room compatible native clients too (same as for normal Matrix) - and we hope
-            to see Godot, Unity and Unreal clients emerge in due course! But our roots will always be on the open Web.
+            instance, Space runs fine on a 2010 Macbook Air with integrated graphics. Today’s release is desktop web
+            only, but mobile web is not far away (and performance is great!). Obviously there’s nothing stopping people
+            from also building Space compatible native clients too (same as for normal Matrix) - and we hope to see
+            Godot, Unity and Unreal clients emerge in due course! But our roots will always be on the open Web.
           </li>
           <li>
-            <span className="semi-bold">Open standards throughout.</span> Building on Matrix means that Third Room
-            already inherits from Matrix’s{" "}
+            <span className="semi-bold">Open standards throughout.</span> Building on Matrix means that Space already
+            inherits from Matrix’s{" "}
             <a href="https://spec.matrix.org/" target="_blank" rel="noreferrer noopener">
               open standard
             </a>{" "}
@@ -374,7 +374,7 @@ export function BlogSection() {
             <a href="https://spec.matrix.org/proposals/" target="_blank" rel="noreferrer noopener">
               open governance model
             </a>
-            . However, to actually describe and model the 3D assets in Third Room, we are using{" "}
+            . However, to actually describe and model the 3D assets in Space, we are using{" "}
             <a href="https://www.khronos.org/gltf/" target="_blank" rel="noreferrer noopener">
               glTF
             </a>{" "}
@@ -433,8 +433,8 @@ export function BlogSection() {
             Matrix spec, looked after by an domain-specific Matrix spec working group rather than the normal Matrix spec
             core team (and so avoid bloating the core Matrix spec with metaverse-specific stuff).
             <br />
-            Meanwhile, while building Third Room we’ve found ourselves repeatedly hitting the edge of the possible in
-            glTF itself - but luckily, much as Matrix has MSCs, glTF has Extensions to let folks experiment with new
+            Meanwhile, while building Space we’ve found ourselves repeatedly hitting the edge of the possible in glTF
+            itself - but luckily, much as Matrix has MSCs, glTF has Extensions to let folks experiment with new
             functionality… and we’re proud to announce that the Matrix.org Foundation has formally joined The Khronos
             Group as a non-profit participant in order to formally participate in the spec process for glTF, WebGL,
             OpenXR etc and contribute our extensions into the official spec. We are also participating in the{" "}
@@ -448,7 +448,7 @@ export function BlogSection() {
             .
           </li>
           <li>
-            <span className="semi-bold">Open Source.</span> It should be no surprise that Third Room is entirely{" "}
+            <span className="semi-bold">Open Source.</span> It should be no surprise that Space is entirely{" "}
             <a href="https://github.com/matrix-org/thirdroom" target="_blank" rel="noreferrer noopener">
               open source
             </a>
@@ -458,7 +458,7 @@ export function BlogSection() {
             contribute to, and everyone can build on for free (both commercially and non-commercially). We do not
             require contributors to sign away their IP with a CLA; contributors retain ownership of their IP and share
             the copyright of the project with each other, protecting the project from relicensing shenanigans and
-            cementing it as a foundation that everyone can build on. Finally, Third Room is proud to build on a set of
+            cementing it as a foundation that everyone can build on. Finally, Space is proud to build on a set of
             amazing open source dependencies - most notably{" "}
             <a href="https://threejs.org/" target="_blank" rel="noreferrer noopener">
               Three.js
@@ -476,7 +476,7 @@ export function BlogSection() {
               Hydrogen SDK
             </a>{" "}
             to power the Matrix layer, and a little bit of React to glue it all together. We hope that people will build
-            amazing things on top of Third Room in turn!
+            amazing things on top of Space in turn!
           </li>
           <li>
             <span className="semi-bold">Free, open and equitable.</span> We profoundly believe that the metaverse should
@@ -484,15 +484,15 @@ export function BlogSection() {
             participate, and it should be open to everyone, without walled gardens or silos, and you should certainly
             not have to pay for it with your data or metadata. We want to provide a truly equitable environment where
             everyone is equal to create their own content and participate without intrinsic privilege or inequality. As
-            a result, there is no artificial scarcity in Third Room, or virtual real-estate speculation, or intrinsic
+            a result, there is no artificial scarcity in Space, or virtual real-estate speculation, or intrinsic
             currencies: just like Matrix, everyone is free to participate on a level pegging, and there are no financial
             incentives baked into the system. Of course, folks are welcome to sell or trade content, avatars, assets,
             apps - just like on the Web - and there’s nothing stopping you from using cryptocurrencies either. But the
             platform itself will never have financial incentives or primitives baked in.
           </li>
           <li>
-            <span className="semi-bold">Aesthetically beautiful.</span> We’re determined that Third Room’s engine should
-            be as visually sophisticated and aesthetically beautiful as possible, and that we should seed the ecosystem
+            <span className="semi-bold">Aesthetically beautiful.</span> We’re determined that Space’s engine should be
+            as visually sophisticated and aesthetically beautiful as possible, and that we should seed the ecosystem
             with beautiful high-quality artwork and assets. The latter has been a bit tricky as we don’t have any
             artists contributing to the project yet, but we’ve done our best by repurposing Unity assets from{" "}
             <a
@@ -519,9 +519,9 @@ export function BlogSection() {
           <li>
             <span className="semi-bold">Pancake first.</span> The reality is that VR/AR headsets have not yet taken over
             the world, and the vast majority of mainstream users are still on boring old flat 2D “pancake” laptop and
-            smartphone screens, and we want Third Room to be amazing for the mainstream audience. As a result, our
-            primary platform for Third Room is unashamedly the plain old web browser as viewed on a flat screen -
-            although we will of course be adding VR/AR support via WebXR in future.
+            smartphone screens, and we want Space to be amazing for the mainstream audience. As a result, our primary
+            platform for Space is unashamedly the plain old web browser as viewed on a flat screen - although we will of
+            course be adding VR/AR support via WebXR in future.
           </li>
         </ul>
 
@@ -531,10 +531,10 @@ export function BlogSection() {
           Built entirely on Matrix
         </Text>
         <Text variant="c1">
-          It’s worth reiterating that Third Room does not have its own server - it is powered exclusively by plain old
-          Matrix homeservers, with no new APIs or functionality required whatsoever. As a result, anyone running their
-          own Synapse, Dendrite, Conduit or Construct can go and point Third Room at it and jump straight in. In return,
-          Third Room inherits a tonne of amazing features directly from Matrix:
+          It’s worth reiterating that Space does not have its own server - it is powered exclusively by plain old Matrix
+          homeservers, with no new APIs or functionality required whatsoever. As a result, anyone running their own
+          Synapse, Dendrite, Conduit or Construct can go and point Space at it and jump straight in. In return, Space
+          inherits a tonne of amazing features directly from Matrix:
         </Text>
 
         <ul className="BlogSection__spaced-list">
@@ -544,13 +544,13 @@ export function BlogSection() {
             tolerance for free: there is no single server owning or controlling the virtual world; it is impossible to
             connect to someone else on a different server without sharing ownership bilaterally with them.
             <br />
-            The one exception to this in Third Room is the physics engine: currently, objects are ‘owned’ by the account
+            The one exception to this in Space is the physics engine: currently, objects are ‘owned’ by the account
             which created them, which then runs the physics simulation for that object and then pushes the results out
             to the other users in the room to update their world view. We are not yet running a decentralised physics
             simulation, sadly :) We have plans to improve this in future however.
           </li>
           <li>
-            <span className="semi-bold">VoIP:</span> Third Room uses{" "}
+            <span className="semi-bold">VoIP:</span> Space uses{" "}
             <a
               href="https://github.com/matrix-org/matrix-spec-proposals/pull/3401"
               target="_blank"
@@ -577,15 +577,15 @@ export function BlogSection() {
             >
               Element Call
             </a>{" "}
-            coming into its own to power Third Room.
+            coming into its own to power Space.
           </li>
           <li>
-            <span className="semi-bold">E2EE:</span> Third Room is the only end-to-end encrypted metaverse client in
+            <span className="semi-bold">E2EE:</span> Space is the only end-to-end encrypted metaverse client in
             existence, as far as we know.
           </li>
           <li>
             <span className="semi-bold">Authentication:</span> Matrix is moving to natively use OpenID Connect for
-            authentication, and Third Room is the world’s first ever OIDC-native Matrix app. It implements{" "}
+            authentication, and Space is the world’s first ever OIDC-native Matrix app. It implements{" "}
             <a
               href="https://github.com/matrix-org/matrix-spec-proposals/blob/hughns/delegated-oidc-architecture/proposals/3861-delegated-oidc-architecture.md"
               target="_blank"
@@ -594,11 +594,11 @@ export function BlogSection() {
               MSC3861
             </a>{" "}
             in order to delegate all guest access, account registration, login, reCAPTCHA, 2FA, session management etc.
-            to your identity provider. For the thirdroom.io server, we’ve set up a Third Room branded Keycloak instance
-            as the identity provider - but in future it will also support the lightweight Matrix Authentication Service
+            to your identity provider. For the thirdroom.io server, we’ve set up a Space branded Keycloak instance as
+            the identity provider - but in future it will also support the lightweight Matrix Authentication Service
             identity provider that we’re working on. It’s been incredibly impressive to see how OIDC has accelerated
-            Third Room’s development, and a huge relief to know that in future we will never have to implement our own
-            auth flows ever again - either in clients or servers!
+            Space’s development, and a huge relief to know that in future we will never have to implement our own auth
+            flows ever again - either in clients or servers!
           </li>
           <li>
             <span className="semi-bold">Moderation:</span> Last but not least, we inherit all the work going on to
@@ -617,8 +617,8 @@ export function BlogSection() {
           <li>Telepresence - what is the ultimate way for someone remote to attend an in-person meeting?</li>
           <li>Virtual socialising - simply hang out with your friends online in a 3D environment</li>
           <li>Music - jam on a virtual Bosendorfer, or warble on a virtual theremin…</li>
-          <li>Art and Design - get building 3D or 2D models and artwork directly in Third Room!</li>
-          <li>Gaming - the entire spectrum of multiplayer gaming could exist in Third Room</li>
+          <li>Art and Design - get building 3D or 2D models and artwork directly in Space!</li>
+          <li>Gaming - the entire spectrum of multiplayer gaming could exist in Space</li>
           <li>
             Entertainment - make that awesome indie VR movie on an open platform rather than in a proprietary silo
           </li>
@@ -645,8 +645,8 @@ export function BlogSection() {
         </ul>
         <Text variant="c1">
           …but frankly, the canvas is infinite, much like the Web itself. The goal is literally for any real-time
-          interactive spatial application to be able to exist in Third Room - building directly on Matrix’s existing
-          open standard APIs for end-to-end encryption, decentralised conversations, authentication and even P2P (
+          interactive spatial application to be able to exist in Space - building directly on Matrix’s existing open
+          standard APIs for end-to-end encryption, decentralised conversations, authentication and even P2P (
           <a href="https://arewep2pyet.com" target="_blank" rel="noreferrer noopener">
             when ready
           </a>
@@ -681,10 +681,10 @@ export function BlogSection() {
           still doesn’t have multi-account?!” or whatever your favourite pet Matrix or Element deficiency is.
         </Text>
         <Text variant="c1">
-          The fact is that Third Room has been put together by a tiny team of just Robert (project lead, formerly of
-          Mozilla Hubs & AltspaceVR), Nate (of bitECS fame) and Ajay (of Cinny fame) - with a bit of input from Rian and
-          Jordan (Design), Bruno (Hydrogen) and Hugh (OIDC). On the Matrix side it’s been absolutely invaluable in
-          driving Hydrogen SDK (which also powers things like{" "}
+          The fact is that Space has been put together by a tiny team of just Robert (project lead, formerly of Mozilla
+          Hubs & AltspaceVR), Nate (of bitECS fame) and Ajay (of Cinny fame) - with a bit of input from Rian and Jordan
+          (Design), Bruno (Hydrogen) and Hugh (OIDC). On the Matrix side it’s been absolutely invaluable in driving
+          Hydrogen SDK (which also powers things like{" "}
           <a href="https://element.io/blog/element-launches-chatterbox/" target="_blank" rel="noreferrer noopener">
             Chatterbox
           </a>{" "}
@@ -703,26 +703,26 @@ export function BlogSection() {
           to Element’s UI the other week.
         </Text>
         <Text variant="c1">
-          Also, it’s worth noting that at Element we’ve been showing off Third Room as it develops to a lot of our big
+          Also, it’s worth noting that at Element we’ve been showing off Space as it develops to a lot of our big
           customers - and in practice there is significant interest from many of our big public sector deployments to
-          experiment with Third Room. We are depending on commercial interest to scale up work on Third Room - please
-          get in touch if you’re interested in funding. Revisiting the list of use cases above should give you an idea
-          of the range of applications that folks have in mind, and we hope that this will be an impetus to grow the
-          project and see where it goes!
+          experiment with Space. We are depending on commercial interest to scale up work on Space - please get in touch
+          if you’re interested in funding. Revisiting the list of use cases above should give you an idea of the range
+          of applications that folks have in mind, and we hope that this will be an impetus to grow the project and see
+          where it goes!
         </Text>
 
         <Text id="next-steps" variant="h2" weight="semi-bold">
           Next steps
         </Text>
         <Text variant="c1">
-          Our next main milestone is to release a minimum viable product (MVP) version of Third Room which a mainstream
+          Our next main milestone is to release a minimum viable product (MVP) version of Space which a mainstream
           audience can use, rather than the technology preview/showcase we’ve released today to developers. In practice,
           this primarily means sorting out persistence, editing, and UGC so that we (and the community!) can start
           creating proper applications on top of the engine. We’re aiming to release the MVP towards the end of the
           year, but meanwhile we’ll continuously deploying thirdroom.io off the main branch of the repository.
         </Text>
         <Text variant="c1">
-          It might also be interesting to see whether Third Room can embed in Element using the same{" "}
+          It might also be interesting to see whether Space can embed in Element using the same{" "}
           <a
             href="https://matrix.org/blog/2022/08/15/the-matrix-summer-special-2022#matryoshka-voip-embedding"
             target="_blank"
@@ -731,12 +731,12 @@ export function BlogSection() {
             Matryoshka embedding
           </a>{" "}
           trick which is working so well with Element Call - after all; if you’re already in Matrix in Element (or some
-          other widget-capable Matrix client), why shouldn’t you just be able to reach straight into Third Room? This
-          will likely come much later.
+          other widget-capable Matrix client), why shouldn’t you just be able to reach straight into Space? This will
+          likely come much later.
         </Text>
         <Text variant="c1">
           Finally: we desperately need 3d generalists, character artists, and environment artists to come work with us
-          to help build out beautiful avatars, scenes, assets, and generally ensure that Third Room sets a precedent for
+          to help build out beautiful avatars, scenes, assets, and generally ensure that Space sets a precedent for
           being beautiful - and to make the most of the engine in general. If Blender is your happy place, please come
           find us in{" "}
           <a href="https://matrix.to/#/#thirdroom-dev:matrix.org" target="_blank" rel="noreferrer noopener">
@@ -745,9 +745,9 @@ export function BlogSection() {
           to find out how to get involved.
         </Text>
         <Text variant="c1">
-          We live in exciting times: it will be fascinating to see how Third Room progresses, and whether it really
-          could provide a viable alternative to the increasingly closed/centralised or NFT-focused visions of the
-          metaverse which is emerging. But whatever happens, we hope you’re excited to finally play with it as we are!
+          We live in exciting times: it will be fascinating to see how Space progresses, and whether it really could
+          provide a viable alternative to the increasingly closed/centralised or NFT-focused visions of the metaverse
+          which is emerging. But whatever happens, we hope you’re excited to finally play with it as we are!
         </Text>
       </div>
     </section>

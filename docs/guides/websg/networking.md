@@ -1,6 +1,6 @@
 # Networking
 
-The WebSG Networking API gives you access to low latency messaging between peers in a world. Third Room's
+The WebSG Networking API gives you access to low latency messaging between peers in a world. Space's
 networking is built on top of WebRTC data channels. It is peer-to-peer, so messages are sent directly between
 peers without going through a server.
 

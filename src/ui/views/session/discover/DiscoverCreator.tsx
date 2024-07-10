@@ -37,7 +37,7 @@ const getScenes = async (
     limit?: number;
     sender?: string[];
     dir?: "b" | "f";
-  }
+  },
 ) => {
   return session.hsApi
     .messages(roomId, {
@@ -82,7 +82,7 @@ function useScenes(room: Room, sender?: string) {
       }
       setLoading(false);
     },
-    [session, room, sender, isMounted]
+    [session, room, sender, isMounted],
   );
 
   useEffect(() => {
@@ -115,7 +115,7 @@ export function DiscoverCreator({ room, permissions }: DiscoverCreatorProps) {
   const isFeatured = (eventId: string) => featuredScenes.find((stateEvent) => stateEvent.state_key === eventId);
   const { scenes, loading, loadScenes, canLoadBack, deleteScene } = useScenes(
     room,
-    showAll ? undefined : session.userId
+    showAll ? undefined : session.userId,
   );
 
   const isValidScene = (sceneEvent: TimelineEvent) => {
@@ -196,7 +196,7 @@ export function DiscoverCreator({ room, permissions }: DiscoverCreatorProps) {
                   className="DiscoverCreator__unityButton flex flex-column items-center justify-center"
                 >
                   <Text color="primary" type="span" variant="b1" weight="semi-bold">
-                    Third Room Unity Exporter
+                    Space Unity Exporter
                   </Text>
                   <Text color="primary" type="span" variant="b3">
                     Read docs to create and export your own custom scenes
@@ -286,7 +286,7 @@ export function DiscoverCreator({ room, permissions }: DiscoverCreatorProps) {
                           </div>
                         </ScenePreviewCardContent>
                       </ScenePreviewCard>
-                    )
+                    ),
                 )}
               </DiscoverGroupGrid>
               {loading ? (

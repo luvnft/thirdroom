@@ -51,5 +51,5 @@ The `MX_portal` extension can be added to any `node` with a `OMI_collider` exten
 
 ## Known Implementations
 
-- [Third Room](https://thirdroom.io)
-- [Third Room Unity Exporter](https://github.com/matrix-org/thirdroom-unity-exporter)
+- [Space](https://space.atl5d.com)
+- [Space Unity Exporter](https://github.com/matrix-org/thirdroom-unity-exporter)

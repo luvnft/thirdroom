@@ -50,11 +50,11 @@ export function RageshakeDialog({ open, requestClose }: RageshakeDialogProps) {
         app: "thirdroom",
         userAgent: platform.description,
         version: platform.version,
-        text: `Third Room user ${session.userId} on device ${session.deviceId}: ${text ?? "No description provided."}`,
+        text: `Space user ${session.userId} on device ${session.deviceId}: ${text ?? "No description provided."}`,
       },
       logs,
       bugReportEndpointUrl,
-      platform.request
+      platform.request,
     );
   }, []);
 

@@ -1,4 +1,4 @@
-# Third Room Network Protocol (TRNP)
+# Space Network Protocol (TRNP)
 
 ## Network Lifecycle
 

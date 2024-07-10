@@ -224,6 +224,6 @@ Save and reload the world and you should now be able to spawn the basketballs an
 
 In this tutorial series we've built a simple multiplayer basketball game using the Web Scene Graph API. We've covered most of the main concepts of the API including interactables, physics, UI, and networking. This is just the start of what you can do with the API and we hope you'll continue to explore and build amazing things with it!
 
-To build your own apps you're probably going to want to create your own 3D environments to go with it. For that you should head over to the [Third Room Unity Exporter documentation](../../unity/) next.
+To build your own apps you're probably going to want to create your own 3D environments to go with it. For that you should head over to the [Space Unity Exporter documentation](../../unity/) next.
 
 If you have any questions or feedback please join us on [Matrix](https://matrix.to/#/#thirdroom-dev:matrix.org) and let us know!

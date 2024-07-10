@@ -4,13 +4,13 @@ import typedocSidebar from "../websg-js/typedoc-sidebar.json";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Third Room",
-  description: "Documentation for Third Room",
+  title: "Space",
+  description: "Documentation for Space",
   base: "/docs",
   outDir: "../dist/docs",
   themeConfig: {
     siteTitle: false,
-    logo: { light: "/light-logo-full.svg", dark: "/dark-logo-full.svg", alt: "Third Room" },
+    logo: { light: "/light-logo-full.svg", dark: "/dark-logo-full.svg", alt: "Space" },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Guides", link: "/guides/" },

@@ -151,7 +151,7 @@ function initHydrogen() {
   const navigation = new Navigation(allowsChild);
   platform.setNavigation(navigation);
 
-  const client = new Client(platform, features, { deviceName: "Third Room" });
+  const client = new Client(platform, features, { deviceName: "Space" });
 
   hydrogenInstance = {
     client,
@@ -173,9 +173,9 @@ function initHydrogen() {
         hydrogenLogs: JSON.parse(
           JSON.stringify({
             items: Array.from((platform.logger as any)._openItems).map((i: any) =>
-              i.serialize(undefined, undefined, false)
+              i.serialize(undefined, undefined, false),
             ),
-          })
+          }),
         ),
       });
     }
@@ -256,7 +256,7 @@ async function getOidcLoginMethod(platform: Platform, urlCreator: URLRouter, sta
     `oidc_${state}_account_management_url`,
   ];
   const [nonce, codeVerifier, redirectUri, homeserver, issuer, clientId, accountManagementUrl] = await Promise.all(
-    storageKeys.map((key) => settingsStorage.getString(key))
+    storageKeys.map((key) => settingsStorage.getString(key)),
   );
   settingsStorage.remove(`oidc_${state}_started_at`);
   storageKeys.forEach((key) => settingsStorage.remove(key));
@@ -287,7 +287,7 @@ async function getOidcLoginMethod(platform: Platform, urlCreator: URLRouter, sta
 function useOidcComplete(
   platform: Platform,
   urlRouter: URLRouter,
-  login: (loginMethod: ILoginMethod) => Promise<void>
+  login: (loginMethod: ILoginMethod) => Promise<void>,
 ) {
   const navigate = useNavigate();
   const completeOidc = async (state: string, code: string) => {
@@ -324,7 +324,7 @@ function useSession(client: Client, platform: Platform, urlRouter: URLRouter) {
       await client.startWithExistingSession(sessionInfo.id);
       sessionRef.current = await loadClient(client, sessionInfo.id);
     },
-    [platform, client]
+    [platform, client],
   );
 
   const {
@@ -336,7 +336,7 @@ function useSession(client: Client, platform: Platform, urlRouter: URLRouter) {
       await client.startWithLogin(loginMethod);
       sessionRef.current = await loadClient(client, client.sessionId);
     },
-    [client]
+    [client],
   );
 
   const {
@@ -385,7 +385,7 @@ export function HydrogenRootView() {
   const { session, profileRoom, loadInitialSession, login, logout, loading, errorMsg } = useSession(
     client,
     platform,
-    urlRouter
+    urlRouter,
   );
 
   useEffect(() => {
@@ -408,7 +408,7 @@ export function HydrogenRootView() {
       login,
       logout,
     }),
-    [client, platform, navigation, containerEl, urlRouter, logger, session, profileRoom, login, logout]
+    [client, platform, navigation, containerEl, urlRouter, logger, session, profileRoom, login, logout],
   );
 
   const landingPath = useMatch({ path: "/landing" });

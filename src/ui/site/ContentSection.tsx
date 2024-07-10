@@ -24,15 +24,15 @@ export function ContentSection() {
             flipped
             title={
               <Text variant="h1" weight="bold">
-                Your community's virtual home
+                Your tribes's virtual home
               </Text>
             }
             content={
               <div className="flex flex-column gap-md">
                 <Text variant="s1" weight="medium">
-                  Third Room is a virtual space for your community to gather, share, and collaborate. Your own worlds
-                  for you to customize as you see fit. Host events and meetups, just hang out and chat, or dive into
-                  rich 3D experiences together.
+                  Space is a virtual space for your tribe to gather, share, and collaborate. Your own worlds for you to
+                  customize as you see fit. Host events and meetups, just hang out and chat, or dive into rich 3D
+                  experiences together.
                 </Text>
               </div>
             }
@@ -48,15 +48,14 @@ export function ContentSection() {
             content={
               <div className="flex flex-column gap-md">
                 <Text variant="s1" weight="medium">
-                  Whether you’re on your laptop or in an VR or AR headset, Third Room makes communicating 3D concepts
-                  easy.
+                  Whether you’re on your laptop or in an VR or AR headset, Space makes communicating 3D concepts easy.
                 </Text>
                 <div className="flex flex-column gap-xs">
                   <Text variant="s1" weight="semi-bold">
                     Architecture and Civil Engineering
                   </Text>
                   <Text variant="s1" weight="medium">
-                    Use Third Room’s support for Cesium’s 3D Tiles to bring in massive geospatial datasets.
+                    Use Space’s support for Cesium’s 3D Tiles to bring in massive geospatial datasets.
                   </Text>
                 </div>
                 <div className="flex flex-column gap-xs">
@@ -89,16 +88,16 @@ export function ContentSection() {
             content={
               <div className="flex flex-column gap-md">
                 <Text variant="s1" weight="medium">
-                  Third Room is built on Matrix: an open network for secure, decentralized communication.
+                  Space is built on Matrix: an open network for secure, decentralized communication.
                 </Text>
                 <div className="flex flex-column gap-xs">
                   <Text variant="s1" weight="semi-bold">
                     Self Sovereign
                   </Text>
                   <Text variant="s1" weight="medium">
-                    Third Room worlds are replicated across homeservers. There is no single point of control or failure
-                    in the Matrix network. Every server has total self-sovereignty over its users data and anyone can
-                    run a Matrix homeserver.
+                    Space worlds are replicated across homeservers. There is no single point of control or failure in
+                    the Matrix network. Every server has total self-sovereignty over its users data and anyone can run a
+                    Matrix homeserver.
                   </Text>
                 </div>
                 <div className="flex flex-column gap-xs">
@@ -116,9 +115,9 @@ export function ContentSection() {
                     Interoperable
                   </Text>
                   <Text variant="s1" weight="medium">
-                    Third Room is just another Matrix client. You can chat with people in Third Room worlds from Element
-                    on your phone or use your Matrix chat bot in your world. We’re active participants in improving
-                    realtime communication on Matrix.
+                    Space is just another Matrix client. You can chat with people in Space worlds from Element on your
+                    phone or use your Matrix chat bot in your world. We’re active participants in improving realtime
+                    communication on Matrix.
                   </Text>
                 </div>
 
@@ -147,9 +146,9 @@ export function ContentSection() {
             content={
               <div className="flex flex-column gap-md">
                 <Text variant="s1" weight="medium">
-                  Use the Web Scene Graph (WebSG) API to add interactions and behaviors to Third Room worlds. You can
-                  write scripts in any language that compiles to WebAssembly, including JavaScript via QuickJS.
-                  WebAssembly provides a fast, safe and interoperable runtime for user generated content.
+                  Use the Web Scene Graph (WebSG) API to add interactions and behaviors to Space worlds. You can write
+                  scripts in any language that compiles to WebAssembly, including JavaScript via QuickJS. WebAssembly
+                  provides a fast, safe and interoperable runtime for user generated content.
                 </Text>
                 <a href="/docs/guides/websg/" rel="noopener" className="flex items-center gap-xxs">
                   <Text color="primary" type="span" weight="medium">
@@ -172,12 +171,12 @@ export function ContentSection() {
             content={
               <div className="flex flex-column gap-md">
                 <Text variant="s1" weight="medium">
-                  Harness the power of Unity’s editor and Third Room’s high performance WebGL engine.
+                  Harness the power of Unity’s editor and Space’s high performance WebGL engine.
                 </Text>
                 <div className="ContentSection__realGraphicFeatures flex gap-md">
                   <div className="grow basis-0 flex flex-column gap-xs">
                     <Text variant="s1" weight="semi-bold">
-                      Third Room Unity Exporter
+                      Space Unity Exporter
                     </Text>
                     <FeatureItem
                       icon={
@@ -338,7 +337,7 @@ export function ContentSection() {
               Pushing the immersive web forward
             </Text>
             <Text variant="h2" weight="medium">
-              We’re continuously shipping features to make Third Room the best virtual world platform out there. Here’s
+              We’re continuously shipping features to make Space the best virtual world platform out there. Here’s
               what’s coming soon:
             </Text>
             <div className="flex flex-column gap-md text-start" style={{ maxWidth: 526 }}>

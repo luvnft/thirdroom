@@ -1,7 +1,7 @@
-# Implementors Notes For Third Room Networking Protocol
+# Implementors Notes For Space Networking Protocol
 
-The Third Room client is designed to be just one client in the larger Third Room ecosystem.
-The Third Room engine uses the bitECS library and ECS design patterns to manage our network
+The Space client is designed to be just one client in the larger Space ecosystem.
+The Space engine uses the bitECS library and ECS design patterns to manage our network
 lifecycle, state, and side effects. This document describes how we implement our networking
 stack and some notes that may be helpful in implementing TRNP yourself.
 

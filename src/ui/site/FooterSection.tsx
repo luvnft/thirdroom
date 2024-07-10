@@ -63,7 +63,7 @@ export function FooterSection() {
           <FooterMenu>
             <Label className="uppercase">Blog</Label>
             <a href="/preview" className="flex items-center gap-xs">
-              Introducing Third Room
+              Introducing Space
             </a>
           </FooterMenu>
         </div>

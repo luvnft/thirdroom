@@ -44,7 +44,7 @@ The `MX_background` extension can be added to any `scene` property.
 
 The `backgroundTexture` property is a TextureInfo object which may include the `index` and `texCoord` properties. `texCoord` is optional and ignored by this extension. The referenced texture is expected to be an RGBM encoded equirectangular cubemap saved as a PNG or BasisU texture.
 
-** NOTE: Third Room doesn't currently implement the backgroundTexture as RGBM. It ignores the alpha channel multiplier and needs to be updated to support it. **
+** NOTE: Space doesn't currently implement the backgroundTexture as RGBM. It ignores the alpha channel multiplier and needs to be updated to support it. **
 
 ### JSON Schema
 
@@ -52,5 +52,5 @@ The `backgroundTexture` property is a TextureInfo object which may include the `
 
 ## Known Implementations
 
-- [Third Room](https://thirdroom.io)
-- [Third Room Unity Exporter](https://github.com/matrix-org/thirdroom-unity-exporter)
+- [Space](https://space.atl5d.com)
+- [Space Unity Exporter](https://github.com/matrix-org/thirdroom-unity-exporter)

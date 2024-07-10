@@ -19,7 +19,7 @@ export function FirefoxPerfAlert() {
       title="Warning"
       content={
         <Text variant="b2">
-          Third Room is currently experiencing degraded performance in Firefox due to a bug in the browser’s garbage
+          Space is currently experiencing degraded performance in Firefox due to a bug in the browser’s garbage
           collector when using multiple threads. We’re currently investigating this problem and possible workarounds.{" "}
           <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1822411" target="_blank" referrerPolicy="no-referrer">
             Read More
