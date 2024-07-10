@@ -5,7 +5,7 @@ layout: home
 hero:
   name: Space
   text: Documentation
-  tagline: Open, decentralized, immersive worlds built on Matrix
+  tagline: 5D Social Media Metaverse Space
   actions:
     - theme: brand
       text: Get Started

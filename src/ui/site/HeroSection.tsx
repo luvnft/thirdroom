@@ -71,7 +71,7 @@ export function HeroSection() {
       <HeroBanner />
       <div className="HeroSection__main flex flex-column items-center justify-center">
         <Text className="HeroSection__heading" variant="h2">
-          Open, decentralized, immersive worlds built on Matrix
+          5D Social Media Metaverse Space
         </Text>
         <Button size="xl" onClick={() => navigate("/login")} disabled={isMobileDevice()}>
           <Text color="on-primary" weight="semi-bold">

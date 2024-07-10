@@ -67,7 +67,7 @@ export function ContentSection() {
                     with your colleagues.
                   </Text>
                 </div>
-                <a href="https://try.element.io/contact-sales" rel="noopener" className="flex items-center gap-xxs">
+                <a href="hi@atl5d.com" rel="noopener" className="flex items-center gap-xxs">
                   <Text color="primary" type="span" weight="medium">
                     Contact Sales
                   </Text>
